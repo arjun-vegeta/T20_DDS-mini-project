@@ -16,4 +16,5 @@ The following files have me added to the repository:
 2. Abstract (.pdf)
 3. Snapshot of Logism (.jpg)
 4. Logism file (.circ)
-5. Verilog with testbench file (.v) 
+5. Verilog file (.v)
+6. Testbench file (.v) 
