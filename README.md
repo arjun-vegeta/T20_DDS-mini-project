@@ -11,8 +11,9 @@ Team members:
 
 
 The following files have me added to the repository:
-1. Abstract (.pdf)
-2. Logism file (.circ)
+
+1. Abstract Diagram of the project (.jgp)
+2. Abstract (.pdf)
 3. Snapshot of Logism (.jpg)
-4. Abstract Diagram of the project (.jgp)
+4. Logism file (.circ)
 5. Verilog with testbench file (.v) 
