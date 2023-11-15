@@ -33,16 +33,14 @@ Automated Sensory Based Waste Segregation System
 <details>
   <summary>Detail</summary>
 
-  > The smart bin has been ingeniously designed to tackle the challenge of waste segregation. With a strong emphasis on environmental sustainability and efficient recycling, this innovative system comprises two distinct compartments within the bin, each dedicated to handling specific types of waste: one for plastic waste and the other for non-plastic waste, including paper and cardboard. The reason for this segregation is that these materials follow separate recycling methods, necessitating a reliable and automated process for differentiation.
-Upon the disposal of a waste item into the smart bin, a highly sensitive infrared sensor immediately springs into action. This sensor plays a pivotal role in initiating the subsequent phases of the waste management process. It detects the incoming object and activates a sophisticated platform within the bin, where the waste is placed. This platform is equipped with soil sensors designed to assess the moisture content of the waste. This moisture data is crucial in distinguishing between plastic and non-plastic materials.
+  > The smart bin has been ingeniously designed to tackle the challenge of waste segregation. With a strong emphasis on environmental sustainability and efficient recycling, this innovative system comprises two distinct compartments within the bin, each dedicated to handling specific types of waste: one for plastic waste and the other for non-plastic waste, including paper and cardboard. The reason for this segregation is that these materials follow separate recycling methods, necessitating a reliable and automated process for differentiation.<br/> <br/> 
+Upon the disposal of a waste item into the smart bin, a highly sensitive infrared sensor immediately springs into action. This sensor plays a pivotal role in initiating the subsequent phases of the waste management process. It detects the incoming object and activates a sophisticated platform within the bin, where the waste is placed. This platform is equipped with soil sensors designed to assess the moisture content of the waste. This moisture data is crucial in distinguishing between plastic and non-plastic materials.<br/> <br/> 
 The soil sensors provide an output of 1 if the waste is determined to be plastic and 0 if it is non-plastic. This binary output is then connected to a step motor, which orchestrates the movement of the platform. The step motor can rotate both clockwise and counter- clockwise based on the input received from the sensor. Depending on the sensor's determination, the platform efficiently drops the waste item
-into the appropriate bin below, ensuring that plastic and non-plastic waste are separated effectively.
-The ingenuity of the system doesn't end here. To provide users and waste management personnel with real-time feedback on the bin's fill levels, the sensor output is also linked to a circuit that controls a series of LED lights. These LEDs illuminate every time a plastic item is deposited into the bin. The number of LEDs that light up serves as a visual indicator of how full each bin is. This makes it easy for those responsible for waste collection to identify which bin needs attention and timely emptying. Once a bin reaches its capacity, it can be cleared efficiently, thus optimizing waste management operations.
-Furthermore, this intelligent waste disposal system incorporates a routine maintenance feature. For example, if the smart bins are scheduled to be cleared daily at 6 am, a timer-controlled circuit is utilized to reset the LED lights back to zero at this specified time each day. This ensures a fresh start for monitoring bin fill levels and streamlines waste collection activities.
+into the appropriate bin below, ensuring that plastic and non-plastic waste are separated effectively.<br/> <br/> 
+The ingenuity of the system doesn't end here. To provide users and waste management personnel with real-time feedback on the bin's fill levels, the sensor output is also linked to a circuit that controls a series of LED lights. These LEDs illuminate every time a plastic item is deposited into the bin. The number of LEDs that light up serves as a visual indicator of how full each bin is. This makes it easy for those responsible for waste collection to identify which bin needs attention and timely emptying. Once a bin reaches its capacity, it can be cleared efficiently, thus optimizing waste management operations.<br/> <br/> 
+Furthermore, this intelligent waste disposal system incorporates a routine maintenance feature. For example, if the smart bins are scheduled to be cleared daily at 6 am, a timer-controlled circuit is utilized to reset the LED lights back to zero at this specified time each day. This ensures a fresh start for monitoring bin fill levels and streamlines waste collection activities.<br/> <br/> 
 For added convenience and flexibility, a reset button is also included in the design. This button allows for a manual reset of the LED lights at any time, regardless of the regular schedule. In cases where the bin has been cleared ahead of the scheduled time, the reset button can be used to reset the LED indicators, making the system adaptable to dynamic waste disposal needs.
-In summary, the smart bin represents a remarkable leap forward in waste management technology. Its intelligent and automated features
-
-not only contribute to efficient waste segregation but also facilitate the optimization of waste collection operations, making it a valuable asset for environmentally conscious communities and organizations.
+In summary, the smart bin represents a remarkable leap forward in waste management technology. Its intelligent and automated features not only contribute to efficient waste segregation but also facilitate the optimization of waste collection operations, making it a valuable asset for environmentally conscious communities and organizations.
 
 </details>
 
@@ -59,8 +57,9 @@ not only contribute to efficient waste segregation but also facilitate the optim
 <details>
   <summary>Detail</summary>
 
-  > module T20_counter(clk, rst, count);
+  >   
 
+    module T20_counter(clk, rst, count);
     input wire clk, rst;
     output reg [2:0]count = 0;
 
@@ -73,14 +72,15 @@ not only contribute to efficient waste segregation but also facilitate the optim
             else 
                 count <= count + 1'b1;
         end
-endmodule
+    endmodule
 
 
 
-`include "T20_counter.v"
+Testbench:
 
-module T20_counter_tb;
-
+    `include "T20_counter.v"
+     module T20_counter_tb;
+    
     reg rst, user_input;
     wire [2:0]plastic_count;
 
@@ -104,7 +104,7 @@ module T20_counter_tb;
                         end 
                 end
         end
-endmodule
+    endmodule
 
 </details>
 
