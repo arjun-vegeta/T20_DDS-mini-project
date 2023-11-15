@@ -25,9 +25,7 @@ Automated Sensory Based Waste Segregation System
 <details>
   <summary>Detail</summary>
   
-  > This project introduces a Smart Dustbin system designed to automate waste segregation, addressing the environmental challenges posed by inefficient waste management practices. Traditional methods of sorting waste are labour-intensive and prone to error, leading to increased landfill waste. The motivation behind this project is to promote responsible waste management by efficiently separating recyclable and non-recyclable materials, reducing the environmental impact of waste disposal, and streamlining waste collection operations.
-
-The unique contribution of this system lies in its use of LEDs and two level sensors to identify and segregate recyclable items in real-time. Additionally, it adapts to local recycling guidelines, ensuring its effectiveness in various geographical locations. We have used the LEDs adroitly to display the bin capacity. The model remains impeccable at its job.
+  > This project introduces a Smart Dustbin system designed to automate waste segregation, addressing the environmental challenges posed by inefficient waste management practices. Traditional methods of sorting waste are labour-intensive and prone to error, leading to increased landfill waste. The motivation behind this project is to promote responsible waste management by efficiently separating recyclable and non-recyclable materials, reducing the environmental impact of waste disposal, and streamlining waste collection operations. <br/> The unique contribution of this system lies in its use of LEDs and two level sensors to identify and segregate recyclable items in real-time. Additionally, it adapts to local recycling guidelines, ensuring its effectiveness in various geographical locations. We have used the LEDs adroitly to display the bin capacity. The model remains impeccable at its job.
 </details>
 
 <!-- Third Section -->
