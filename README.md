@@ -1,4 +1,4 @@
-Automated Sensory Based Waste Segregation System
+## Automated Sensory Based Waste Segregation System
 
 
 <!-- First Section -->
