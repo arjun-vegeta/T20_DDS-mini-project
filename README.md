@@ -49,7 +49,8 @@ In summary, the smart bin represents a remarkable leap forward in waste manageme
 <details>
   <summary>Detail</summary>
 
-  > [![View](T20-Logism-Snap-1.jpg)](https://github.com/arjun-vegeta/T20_DDS-mini-project/blob/main/T20-Logism-Snap.jpg)
+  > ![T20-Logism-Snap](https://github.com/arjun-vegeta/T20_DDS-mini-project/assets/149392539/c908f1d0-4ccd-41f5-896c-741523973e35)
+
 </details>
 
 <!-- Fifth Section -->
