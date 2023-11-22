@@ -43,7 +43,6 @@ For added convenience and flexibility, a reset button is also included in the de
 In summary, the smart bin represents a remarkable leap forward in waste management technology. Its intelligent and automated features not only contribute to efficient waste segregation but also facilitate the optimization of waste collection operations, making it a valuable asset for environmentally conscious communities and organizations.
 > 
 <br/> <br/>
-> <img width="589" alt="Screenshot 2023-11-15 at 12 01 15 PM" src="https://github.com/arjun-vegeta/T20_DDS-mini-project/assets/149392539/ba0c5ee9-f9fd-41d1-a8c9-7351ef7fb00d">
 
 ![image](https://github.com/arjun-vegeta/T20_DDS-mini-project/assets/150890692/390a3292-6241-40a1-8a82-650ba9041c9d)
 
@@ -55,7 +54,6 @@ In summary, the smart bin represents a remarkable leap forward in waste manageme
 <details>
   <summary>Detail</summary>
 
-  > <img width="1003" alt="Screenshot 2023-11-15 at 12 01 02 PM" src="https://github.com/arjun-vegeta/T20_DDS-mini-project/assets/149392539/0c955f45-9f41-4ccb-9145-a51197ea62c3">
 
   ![image](https://github.com/arjun-vegeta/T20_DDS-mini-project/assets/150890692/6c84ef6d-47ac-473d-b2cb-925a8efd550a)
 
@@ -67,7 +65,7 @@ In summary, the smart bin represents a remarkable leap forward in waste manageme
 <details>
   <summary>Detail</summary>
 
-  > ![T20-Logism-Snap](https://github.com/arjun-vegeta/T20_DDS-mini-project/assets/149392539/c908f1d0-4ccd-41f5-896c-741523973e35)
+ 
 > ![image](https://github.com/arjun-vegeta/T20_DDS-mini-project/assets/150890692/97f07dfd-b6a2-4ddc-a5f6-9471154553a5)
 
 </details>
