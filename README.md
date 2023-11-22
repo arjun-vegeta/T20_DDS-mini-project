@@ -57,6 +57,9 @@ In summary, the smart bin represents a remarkable leap forward in waste manageme
 
   > <img width="1003" alt="Screenshot 2023-11-15 at 12 01 02 PM" src="https://github.com/arjun-vegeta/T20_DDS-mini-project/assets/149392539/0c955f45-9f41-4ccb-9145-a51197ea62c3">
 
+  ![image](https://github.com/arjun-vegeta/T20_DDS-mini-project/assets/150890692/6c84ef6d-47ac-473d-b2cb-925a8efd550a)
+
+
 </details>
 
 
