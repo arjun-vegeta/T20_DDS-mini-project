@@ -52,16 +52,6 @@ In summary, the smart bin represents a remarkable leap forward in waste manageme
 
 </details>
 
-<!-- Fourth Section -->
-## Project Abstract Diagram
-<details>
-  <summary>Detail</summary>
-
-
-  ![image](https://github.com/arjun-vegeta/T20_DDS-mini-project/assets/150890692/6c84ef6d-47ac-473d-b2cb-925a8efd550a)
-
-
-</details>
 
 
 ## Logisim Circuit Diagram
